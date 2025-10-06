@@ -1,0 +1,32 @@
+<% layout("listings/layouts/boilerplate") %>
+
+<div class="row mt-4 mb-4">
+    <h1 class="col-8 offset-2">Login </h1>
+    <div class="col-8 offset-2" >
+    <form action="/login" method="post" novalidate>
+        <div class="mb-3">  
+               <label for="username" class="form-label">Enter username</label>
+            <input name="username" placeholder="enter the username" id="username" type="text" class="form-control" required>
+          
+        
+        </div>
+
+         <!-- <div class="mb-3">  
+               <label for="email" class="form-label">Enter email</label>
+            <input name="email" placeholder="enter the email" id="email" type="email" class="form-control" required>
+           
+        
+        </div> -->
+
+         <div class="mb-3">  
+               <label for="password" class="form-label">Enter password</label>
+            <input name="password" placeholder="enter the password" id="password" type="password" class="form-control" required>
+            
+        
+        </div>
+
+        <button class="btn btn-success">Login</button>
+        <br>
+    </form>    
+    </div>
+</div> 
