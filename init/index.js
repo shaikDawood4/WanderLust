@@ -17,8 +17,8 @@ async function main() {
 
 const initDB = async ()=>{
     await listing.deleteMany({});
-   
-
+    
+    
 }
 
 initDB();
